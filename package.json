@@ -1,0 +1,22 @@
+{
+  "name": "playwright-asb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright tests for Azure Service Bus (local emulator): topic routing, dead-lettering, idempotency",
+  "scripts": {
+    "emulator:up": "docker compose -f docker/docker-compose.yaml up -d",
+    "emulator:down": "docker compose -f docker/docker-compose.yaml down",
+    "emulator:logs": "docker logs servicebus-emulator",
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.9.5"
+  }
+}
