@@ -1,6 +1,6 @@
 # playwright-asb
 
-[![servicebus-tests](https://github.com/vldfilgm/playwright-asb/actions/workflows/servicebus-tests.yml/badge.svg?branch=main)](https://github.com/vldfilgm/playwright-asb/actions/workflows/servicebus-tests.yml)
+[![servicebus-tests](https://github.com/extend-it/playwright-asb/actions/workflows/servicebus-tests.yml/badge.svg?branch=main)](https://github.com/extend-it/playwright-asb/actions/workflows/servicebus-tests.yml)
 
 Playwright (TypeScript) tests for an event-driven Azure Service Bus flow, running entirely against the
 local Service Bus emulator in Docker. No Azure subscription, no cost, no shared test environment.
